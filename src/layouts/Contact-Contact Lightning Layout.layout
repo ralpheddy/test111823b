@@ -38,6 +38,10 @@
                 <behavior>Edit</behavior>
                 <field>Title</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Save__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -475,6 +479,11 @@
             <sortOrder>3</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
+            <actionName>Contact.NewMembership</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>4</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
             <actionName>npsp__Recalculate_Rollups</actionName>
             <actionType>CustomButton</actionType>
             <sortOrder>5</sortOrder>
@@ -523,11 +532,6 @@
             <actionName>npsp__LogACall</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>13</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
-            <actionName>Contact.NewMembership</actionName>
-            <actionType>QuickAction</actionType>
-            <sortOrder>4</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
             <actionName>SendEmail</actionName>
